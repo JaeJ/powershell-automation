@@ -2,26 +2,24 @@
 
 ## Overview
 
-This project is designed as a reusable PowerShell automation toolkit for enterprise IT administration.
-
-The repository organizes scripts, documentation, examples, and future tests in a way that supports repeatable infrastructure operations.
+This project is a reusable PowerShell automation toolkit for enterprise IT administration.
 
 ## Workflow
 
-```text
-Administrator
-      |
-      v
-PowerShell Script
-      |
-      v
-Target System
-      |
-      v
-Collect Data / Perform Action
-      |
-      v
-Export Report
-      |
-      v
-Review Results
+Administrator → PowerShell Script → Target System → Collect Data → Export Report → Review Results
+
+## Components
+
+- Scripts folder for automation
+- Docs folder for documentation
+- Examples folder for sample outputs
+- Images folder for screenshots
+- Tests folder for future validation
+
+## Skills Demonstrated
+
+- PowerShell scripting
+- Windows administration
+- Infrastructure automation
+- Reporting
+- Documentation
