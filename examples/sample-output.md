@@ -26,3 +26,18 @@ Name        DisplayName              Status
 Spooler     Print Spooler            Running
 WinRM       Windows Remote Management Running
 ```
+
+---
+
+## Get-SystemInfo.ps1
+
+```text
+ComputerName    : DESKTOP-12345
+Manufacturer    : Dell Inc.
+Model           : Inspiron 14 7420 2-in-1
+OperatingSystem : Microsoft Windows 11
+OSVersion       : 10.0.26100
+Processor       : 12th Gen Intel(R) Core(TM) i7-1255U
+MemoryGB        : 16
+LastBootTime    : 7/5/2026 7:30 AM
+```
