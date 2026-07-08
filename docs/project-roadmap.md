@@ -10,11 +10,16 @@
 
 ## Phase 2 — Windows Administration Scripts
 
-- Disk space reporting
-- [x] System information reporting
-- Running services report
-- Event log error report
-- Installed software inventory
+- [x] Get-SystemInfo.ps1
+- [x] Get-DiskSpaceReport.ps1
+- [ ] Get-RunningServices.ps1
+- [ ] Get-WindowsUpdateStatus.ps1
+- [ ] Get-InstalledSoftware.ps1
+- [ ] Get-EventLogErrors.ps1
+- [ ] Get-LocalAdministrators.ps1
+- [ ] Get-SystemUptime.ps1
+- [ ] Get-ScheduledTasks.ps1
+- [ ] Export-SystemHealthReport.ps1
 
 ## Phase 3 — Active Directory Scripts
 
