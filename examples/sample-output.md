@@ -41,3 +41,13 @@ Processor       : 12th Gen Intel(R) Core(TM) i7-1255U
 MemoryGB        : 16
 LastBootTime    : 7/5/2026 7:30 AM
 ```
+
+## Get-DiskSpaceReport.ps1
+
+```text
+ComputerName Drive SizeGB FreeGB FreePercent
+
+SERVER01     C:    476.2  181.4  38.09
+
+SERVER01     D:    931.5  410.6  44.08
+```
