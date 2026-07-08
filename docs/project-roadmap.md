@@ -11,11 +11,10 @@
 ## Phase 2 — Windows Administration Scripts
 
 - Disk space reporting
-- System information reporting
+- [x] System information reporting
 - Running services report
 - Event log error report
 - Installed software inventory
-- Windows update status report
 
 ## Phase 3 — Active Directory Scripts
 
