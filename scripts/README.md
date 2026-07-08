@@ -1,28 +1,50 @@
 # Scripts
 
-This folder contains PowerShell scripts for infrastructure automation and administration.
+This repository organizes PowerShell scripts by technology.
 
-## Script Categories
+## Folder Structure
 
-### Windows Administration
+```text
+scripts/
 
-Scripts for system information, disk space, services, event logs, scheduled tasks, installed software, and updates.
+├── ActiveDirectory/
+├── Azure/
+├── Microsoft365/
+├── Networking/
+├── Reporting/
+├── Security/
+├── Utilities/
+└── Windows/
+```
 
-### Active Directory
+## Windows
 
-Scripts for user audits, group memberships, inactive users, and disabled accounts.
+- Get-SystemInfo.ps1
 
-### Microsoft 365
+## Active Directory
 
-Scripts for user reports, license reports, and mailbox status.
+Future scripts
 
-### Azure
+## Microsoft 365
 
-Scripts for Azure resource inventory and cloud administration.
+Future scripts
 
-## Usage
+## Azure
 
-Most scripts can be run from PowerShell:
+Future scripts
 
-```powershell
-.\Script-Name.ps1
+## Reporting
+
+Future scripts
+
+## Networking
+
+Future scripts
+
+## Security
+
+Future scripts
+
+## Utilities
+
+Future scripts
