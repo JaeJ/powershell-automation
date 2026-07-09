@@ -61,14 +61,25 @@ All notable changes to this project will be documented here.
 
 ---
 
-# Sprint 2
-
 ## Session 2
 
-### Added
+### Completed
 
 - Get-RunningServices.ps1
 - Service status reporting
+- CSV export support
+- Sample output
+- Roadmap updates
+
+---
+
+## Session 3
+
+### Completed
+
+- Get-InstalledSoftware.ps1
+- Installed software inventory reporting
+- Optional software name filtering
 - CSV export support
 - Sample output
 - Roadmap updates
