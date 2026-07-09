@@ -27,8 +27,6 @@ Spooler     Print Spooler            Running
 WinRM       Windows Remote Management Running
 ```
 
----
-
 ## Get-SystemInfo.ps1
 
 ```text
@@ -50,4 +48,16 @@ ComputerName Drive SizeGB FreeGB FreePercent
 SERVER01     C:    476.2  181.4  38.09
 
 SERVER01     D:    931.5  410.6  44.08
+```
+
+## Get-RunningServices.ps1
+
+```text
+ComputerName ServiceName DisplayName Status StartType
+
+SERVER01     WinRM       Windows Remote Management Running Automatic
+
+SERVER01     Spooler     Print Spooler             Running Automatic
+
+SERVER01     W32Time     Windows Time              Running Automatic
 ```
