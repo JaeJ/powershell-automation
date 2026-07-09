@@ -58,3 +58,17 @@ All notable changes to this project will be documented here.
 - Added disk space sample output
 - Updated Windows script documentation
 - Updated project roadmap
+
+---
+
+# Sprint 2
+
+## Session 2
+
+### Added
+
+- Get-RunningServices.ps1
+- Service status reporting
+- CSV export support
+- Sample output
+- Roadmap updates
