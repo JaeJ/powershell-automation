@@ -83,3 +83,17 @@ All notable changes to this project will be documented here.
 - CSV export support
 - Sample output
 - Roadmap updates
+
+---
+
+## Sprint 3
+
+### Session 1
+
+### Completed
+
+- Get-WindowsUpdateStatus.ps1
+- Windows Update service reporting
+- Latest installed update reporting
+- Sample output
+- Roadmap updates
