@@ -14,7 +14,7 @@
 - [x] Get-DiskSpaceReport.ps1
 - [x] Get-RunningServices.ps1
 - [x] Get-InstalledSoftware.ps1
-- [ ] Get-WindowsUpdateStatus.ps1
+- [x] Get-WindowsUpdateStatus.ps1
 - [ ] Get-EventLogErrors.ps1
 - [ ] Get-LocalAdministrators.ps1
 - [ ] Get-SystemUptime.ps1
