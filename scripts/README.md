@@ -20,6 +20,8 @@ scripts/
 ## Windows
 
 - Get-SystemInfo.ps1
+- Get-DiskSpaceReport.ps1
+- Get-RunningServices.ps1
 
 ## Active Directory
 
