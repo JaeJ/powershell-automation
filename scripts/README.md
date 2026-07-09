@@ -22,6 +22,7 @@ scripts/
 - Get-SystemInfo.ps1
 - Get-DiskSpaceReport.ps1
 - Get-RunningServices.ps1
+- Get-InstalledSoftware.ps1
 
 ## Active Directory
 
