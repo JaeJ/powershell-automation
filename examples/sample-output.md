@@ -61,3 +61,12 @@ SERVER01     Spooler     Print Spooler             Running Automatic
 
 SERVER01     W32Time     Windows Time              Running Automatic
 ```
+
+## Get-InstalledSoftware.ps1
+
+```text
+ComputerName DisplayName              DisplayVersion Publisher
+------------ -----------              -------------- ---------
+SERVER01     Microsoft Edge           126.0.2592.87  Microsoft Corporation
+SERVER01     Microsoft 365 Apps       16.0.17726     Microsoft Corporation
+SERVER01     Google Chrome            126.0.6478.127 Google LLC
