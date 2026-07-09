@@ -70,3 +70,19 @@ ComputerName DisplayName              DisplayVersion Publisher
 SERVER01     Microsoft Edge           126.0.2592.87  Microsoft Corporation
 SERVER01     Microsoft 365 Apps       16.0.17726     Microsoft Corporation
 SERVER01     Google Chrome            126.0.6478.127 Google LLC
+```
+
+## Get-WindowsUpdateStatus.ps1
+
+```text
+ComputerName     : SERVER01
+
+WindowsUpdateSvc : Running
+
+LastKB           : KB5062553
+
+InstalledOn      : 7/8/2026
+
+InstalledBy      : NT AUTHORITY\SYSTEM
+```
+
