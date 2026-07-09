@@ -1,53 +1,16 @@
 # Scripts
 
-This repository organizes PowerShell scripts by technology.
+This folder contains PowerShell scripts organized by administration category.
 
-## Folder Structure
+## Categories
 
-```text
-scripts/
+### Windows
+Scripts for Windows system administration, inventory, disk reporting, services, software inventory, updates, and event logs.
 
-├── ActiveDirectory/
-├── Azure/
-├── Microsoft365/
-├── Networking/
-├── Reporting/
-├── Security/
-├── Utilities/
-└── Windows/
-```
+### Utilities
+General-purpose support scripts that may be reviewed, renamed, or merged into other categories later.
 
-## Windows
+## Current Categories
 
-- Get-SystemInfo.ps1
-- Get-DiskSpaceReport.ps1
-- Get-RunningServices.ps1
-- Get-InstalledSoftware.ps1
-
-## Active Directory
-
-Future scripts
-
-## Microsoft 365
-
-Future scripts
-
-## Azure
-
-Future scripts
-
-## Reporting
-
-Future scripts
-
-## Networking
-
-Future scripts
-
-## Security
-
-Future scripts
-
-## Utilities
-
-Future scripts
+- Windows
+- Utilities
