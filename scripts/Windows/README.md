@@ -4,10 +4,10 @@
 - Get-DiskSpaceReport.ps1
 - Get-RunningServices.ps1
 - Get-InstalledSoftware.ps1
+- Get-WindowsUpdateStatus.ps1
 
 ## Planned
 
-- Get-WindowsUpdateStatus.ps1
 - Get-EventLogErrors.ps1
 - Get-LocalAdministrators.ps1
 - Get-SystemUptime.ps1
