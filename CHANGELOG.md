@@ -97,3 +97,21 @@ All notable changes to this project will be documented here.
 - Latest installed update reporting
 - Sample output
 - Roadmap updates
+
+---
+
+## Session 2
+
+### Added
+
+- Added `Get-EventLogErrors.ps1`.
+- Added Critical and Error event filtering.
+- Added support for System and Application logs.
+- Added configurable date range and maximum event count.
+- Added optional CSV export.
+- Added event log sample output.
+
+### Updated
+
+- Updated the Windows administration roadmap.
+- Updated the Windows scripts documentation.
