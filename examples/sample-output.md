@@ -86,3 +86,38 @@ InstalledOn      : 7/8/2026
 InstalledBy      : NT AUTHORITY\SYSTEM
 ```
 
+## Get-EventLogErrors.ps1
+
+### Command
+
+```powershell
+.\Get-EventLogErrors.ps1 -Days 3 -MaxEvents 10
+```
+
+### Example Output
+
+```text
+ComputerName : SERVER01
+LogName      : System
+TimeCreated  : 7/9/2026 6:42:15 PM
+Level        : Error
+EventID      : 7031
+Provider     : Service Control Manager
+Message      : The Example Service terminated unexpectedly.
+
+ComputerName : SERVER01
+LogName      : Application
+TimeCreated  : 7/9/2026 5:18:31 PM
+Level        : Critical
+EventID      : 1000
+Provider     : Application Error
+Message      : Faulting application name: ExampleApp.exe
+```
+
+### CSV Export
+
+```powershell
+.\Get-EventLogErrors.ps1 `
+    -Days 7 `
+    -OutputPath .\reports\EventLogErrors.csv
+```
