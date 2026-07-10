@@ -8,14 +8,14 @@
 - Add scripts folder documentation
 - Add testing folder placeholder
 
-## Windows Administration Scripts
+## Phase 2 — Windows Administration Scripts
 
 - [x] Get-SystemInfo.ps1
 - [x] Get-DiskSpaceReport.ps1
 - [x] Get-RunningServices.ps1
 - [x] Get-InstalledSoftware.ps1
 - [x] Get-WindowsUpdateStatus.ps1
-- [ ] Get-EventLogErrors.ps1
+- [x] Get-EventLogErrors.ps1
 - [ ] Get-LocalAdministrators.ps1
 - [ ] Get-SystemUptime.ps1
 - [ ] Get-ScheduledTasks.ps1
