@@ -158,3 +158,10 @@ All notable changes to this project will be documented here.
 - Added optional Microsoft task exclusion.
 - Added local and remote computer support.
 - Added optional CSV export.
+
+### Updated
+
+- Updated the Windows administration roadmap.
+- Updated the Windows scripts documentation.
+
+---
