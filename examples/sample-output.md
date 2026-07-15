@@ -149,4 +149,35 @@ ReportCreated : 7/14/2026 7:00:24 PM
 ```powershell
 .\Get-SystemUptime.ps1 `
     -OutputPath .\reports\SystemUptime.csv
+---
+
+## Get-LocalAdministrators.ps1
+
+### Command
+
+```powershell
+.\Get-LocalAdministrators.ps1
+```
+
+### Example Output
+
+```text
+ComputerName    : SERVER01
+Name            : SERVER01\Administrator
+ObjectClass     : User
+PrincipalSource : Local
+AccountType     : Local
+
+ComputerName    : SERVER01
+Name            : CONTOSO\Domain Admins
+ObjectClass     : Group
+PrincipalSource : ActiveDirectory
+AccountType     : Domain or Directory
+```
+
+### CSV Export
+
+```powershell
+.\Get-LocalAdministrators.ps1 `
+    -OutputPath .\reports\LocalAdministrators.csv
 ```
