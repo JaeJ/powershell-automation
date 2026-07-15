@@ -111,6 +111,18 @@ All notable changes to this project will be documented here.
 - Added optional CSV export.
 - Added event log sample output.
 
+---
+
+## Session 3
+
+### Added
+
+- Added `Get-SystemUptime.ps1`.
+- Added local and remote uptime reporting.
+- Added last boot time and total uptime calculations.
+- Added optional CSV export.
+- Added system uptime sample output.
+
 ### Updated
 
 - Updated the Windows administration roadmap.
