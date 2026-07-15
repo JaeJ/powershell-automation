@@ -181,3 +181,49 @@ AccountType     : Domain or Directory
 .\Get-LocalAdministrators.ps1 `
     -OutputPath .\reports\LocalAdministrators.csv
 ```
+
+---
+
+## Get-ScheduledTasks.ps1
+
+### Command
+
+```powershell
+.\Get-ScheduledTasks.ps1 -ExcludeMicrosoft
+```
+
+### Example Output
+
+```text
+ComputerName : SERVER01
+TaskName     : Daily Backup
+TaskPath     : \
+State        : Ready
+Author       : CONTOSO\Administrator
+LastRunTime  : 7/13/2026 11:00:00 PM
+NextRunTime  : 7/14/2026 11:00:00 PM
+LastResult   : 0
+
+ComputerName : SERVER01
+TaskName     : System Inventory
+TaskPath     : \IT Operations\
+State        : Ready
+Author       : CONTOSO\ServiceAccount
+LastRunTime  : 7/14/2026 6:00:00 AM
+NextRunTime  : 7/15/2026 6:00:00 AM
+LastResult   : 0
+```
+
+### Filter by State
+
+```powershell
+.\Get-ScheduledTasks.ps1 -State Running
+```
+
+### CSV Export
+
+```powershell
+.\Get-ScheduledTasks.ps1 `
+    -ExcludeMicrosoft `
+    -OutputPath .\reports\ScheduledTasks.csv
+```
