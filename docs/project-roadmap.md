@@ -18,7 +18,7 @@
 - [x] Get-EventLogErrors.ps1
 - [x] Get-SystemUptime.ps1
 - [x] Get-LocalAdministrators.ps1
-- [ ] Get-ScheduledTasks.ps1
+- [x] Get-ScheduledTasks.ps1
 - [ ] Export-SystemHealthReport.ps1
 
 ## Phase 3 — Active Directory Scripts
