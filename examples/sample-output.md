@@ -149,8 +149,9 @@ ReportCreated : 7/14/2026 7:00:24 PM
 ```powershell
 .\Get-SystemUptime.ps1 `
     -OutputPath .\reports\SystemUptime.csv
----
+```
 
+---
 ## Get-LocalAdministrators.ps1
 
 ### Command
