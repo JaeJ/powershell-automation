@@ -146,3 +146,15 @@ All notable changes to this project will be documented here.
 
 - Updated the Windows administration roadmap.
 - Updated the Windows scripts documentation.
+
+---
+
+## Session 2
+
+### Added
+
+- Added `Get-ScheduledTasks.ps1`.
+- Added scheduled task state and runtime reporting.
+- Added optional Microsoft task exclusion.
+- Added local and remote computer support.
+- Added optional CSV export.
