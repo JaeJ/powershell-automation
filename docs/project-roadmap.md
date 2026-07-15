@@ -17,7 +17,7 @@
 - [x] Get-WindowsUpdateStatus.ps1
 - [x] Get-EventLogErrors.ps1
 - [x] Get-SystemUptime.ps1
-- [ ] Get-LocalAdministrators.ps1
+- [x] Get-LocalAdministrators.ps1
 - [ ] Get-ScheduledTasks.ps1
 - [ ] Export-SystemHealthReport.ps1
 
