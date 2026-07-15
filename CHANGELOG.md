@@ -127,3 +127,22 @@ All notable changes to this project will be documented here.
 
 - Updated the Windows administration roadmap.
 - Updated the Windows scripts documentation.
+---
+
+# Sprint 4
+
+## Session 1
+
+### Added
+
+- Added `Get-LocalAdministrators.ps1`.
+- Added local Administrators group inventory.
+- Added local and domain account identification.
+- Added local and remote computer support.
+- Added optional CSV export.
+- Added sample output.
+
+### Updated
+
+- Updated the Windows administration roadmap.
+- Updated the Windows scripts documentation.
