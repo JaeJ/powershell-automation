@@ -7,9 +7,9 @@
 - Get-WindowsUpdateStatus.ps1
 - Get-EventLogErrors.ps1
 - Get-SystemUptime.ps1
-
-## Planned
-
 - Get-LocalAdministrators.ps1
 - Get-ScheduledTasks.ps1
+  
+## Planned
+
 - Export-SystemHealthReport.ps1
