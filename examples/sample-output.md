@@ -121,3 +121,32 @@ Message      : Faulting application name: ExampleApp.exe
     -Days 7 `
     -OutputPath .\reports\EventLogErrors.csv
 ```
+
+---
+
+## Get-SystemUptime.ps1
+
+### Command
+
+```powershell
+.\Get-SystemUptime.ps1
+```
+
+### Example Output
+
+```text
+ComputerName  : SERVER01
+LastBootTime  : 7/10/2026 6:32:11 AM
+UptimeDays    : 4
+UptimeHours   : 12
+UptimeMinutes : 28
+TotalHours    : 108.47
+ReportCreated : 7/14/2026 7:00:24 PM
+```
+
+### CSV Export
+
+```powershell
+.\Get-SystemUptime.ps1 `
+    -OutputPath .\reports\SystemUptime.csv
+```
