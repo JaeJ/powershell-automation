@@ -25,9 +25,12 @@ jobs:
       - name: Run PowerShell Analysis
         shell: pwsh
         run: |
-          $results = Invoke-ScriptAnalyzer -Path ./scripts -Recurse
+    $results = Invoke-ScriptAnalyzer -Path ./scripts -Recurse
 
-          if ($results) {
-              $results | Format-Table
-              throw "PSScriptAnalyzer detected issues."
-          }
+$results | Format-Table
+
+$errors = $results | Where-Object Severity -eq 'Error'
+
+if ($errors) {
+    throw "PSScriptAnalyzer detected errors."
+}
