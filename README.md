@@ -1,171 +1,154 @@
 # PowerShell Automation
 
-![PowerShell](https://img.shields.io/badge/PowerShell-7+-5391FE?logo=powershell)
-![Windows](https://img.shields.io/badge/Windows-Server-0078D6?logo=windows)
-![Automation](https://img.shields.io/badge/Infrastructure-Automation-success)
-![License](https://img.shields.io/badge/License-MIT-green)
+## Overview
+
+This repository contains PowerShell automation scripts designed for Windows administration, system maintenance, troubleshooting, reporting, and infrastructure support.
+
+The goal of this project is to build practical automation solutions that reduce manual administrative effort, improve operational consistency, and demonstrate real-world systems administration skills.
 
 ---
 
-# Overview
+## Business Problem
 
-This repository contains reusable PowerShell scripts developed to automate common Windows administration, Microsoft 365, Azure, Active Directory, and infrastructure management tasks.
+Systems administrators often spend significant time performing repetitive tasks such as gathering system information, reviewing disk utilization, restarting services, and troubleshooting workstation or server issues.
 
-The purpose of this project is to demonstrate enterprise automation techniques that reduce repetitive administrative work, improve operational consistency, and support IT infrastructure teams.
+Automation improves operational efficiency by reducing manual work, increasing consistency, and providing reusable solutions that can be applied across multiple environments.
 
----
-
-# Business Problem
-
-System administrators perform many repetitive tasks every day.
-
-Examples include:
-
-* Checking disk space
-* Auditing Active Directory
-* Monitoring Windows services
-* Reporting Microsoft 365 users
-* Inventorying servers
-* Exporting reports
-* Monitoring Event Logs
-
-Manual execution of these tasks increases operational overhead and creates opportunities for human error.
-
-PowerShell automation provides repeatable, documented, and scalable solutions.
+This repository demonstrates practical PowerShell automation techniques commonly used in enterprise IT operations.
 
 ---
 
-# Project Objectives
+## Objectives
 
-* Automate repetitive administration tasks
-* Improve reporting
-* Reduce manual effort
-* Demonstrate PowerShell scripting skills
-* Build reusable infrastructure tools
-* Follow enterprise documentation standards
-
----
-
-# Skills Demonstrated
-
-* PowerShell
-* Windows Server Administration
-* Active Directory
-* Microsoft 365
-* Azure Administration
-* Infrastructure Automation
-* Reporting
-* Troubleshooting
-* Documentation
-* Process Improvement
+- Improve PowerShell scripting skills
+- Automate repetitive administration tasks
+- Build reusable infrastructure tools
+- Practice troubleshooting automation
+- Develop operational reporting solutions
+- Maintain professional documentation standards
 
 ---
 
-# Repository Structure
+## Skills Demonstrated
+
+### Windows Administration
+
+- Windows Services
+- Disk Management
+- Event Logs
+- System Information
+- System Health Reporting
+
+### PowerShell Automation
+
+- Functions
+- Reporting
+- Automation
+- Error Handling
+- Script Documentation
+
+### Infrastructure Support
+
+- Troubleshooting
+- Diagnostics
+- Operational Support
+- Process Improvement
+
+---
+
+## Repository Structure
 
 ```text
 powershell-automation/
 │
-├── docs/
-│
-├── examples/
-│
-├── images/
-│
 ├── scripts/
+│   ├── Check-DiskSpace.ps1
+│   ├── Get-SystemHealth.ps1
+│   ├── Restart-ServiceSafe.ps1
+│   └── Cleanup-TempFiles.ps1
 │
-├── tests/
+├── docs/
+│   └── troubleshooting-notes.md
 │
-├── .gitignore
+├── CHANGELOG.md
 ├── LICENSE
-└── README.md
+├── README.md
+└── .gitignore
 ```
 
 ---
 
-# Planned Script Categories
+## Current Scripts
 
-## Windows Administration
-
-* Disk Space Reports
-* Installed Software
-* Services
-* Event Logs
-* Scheduled Tasks
-* Windows Updates
+| Script | Description |
+|----------|-------------|
+| Check-DiskSpace.ps1 | Displays available disk space |
+| Get-SystemHealth.ps1 | Generates a basic system health report |
+| Restart-ServiceSafe.ps1 | Safely restarts Windows services |
+| Cleanup-TempFiles.ps1 | Removes temporary files |
 
 ---
 
-## Active Directory
+## Example Output
 
-* User Audit
-* Group Membership
-* Disabled Users
-* Inactive Users
-* Password Reports
+### Disk Space Report
 
----
+```text
+Drive  FreeSpaceGB
+-----  -----------
+C:     125
+D:      88
+```
 
-## Microsoft 365
+### System Health Summary
 
-* User Reports
-* License Reports
-* Mailbox Reports
-
----
-
-## Azure
-
-* Azure Resource Inventory
-* Resource Groups
-* Storage Reports
+```text
+Computer Name: WORKSTATION01
+CPU Usage: 18%
+Memory Usage: 42%
+Status: Healthy
+```
 
 ---
 
-## Reporting
+## Technologies Used
 
-* CSV Reports
-* HTML Reports
-* System Health Reports
-
----
-
-# Technologies Used
-
-* PowerShell 7
-* Windows Server
-* Microsoft 365
-* Azure
-* Git
-* GitHub
+- PowerShell
+- Windows 10
+- Windows 11
+- Windows Server
+- Git
+- GitHub
 
 ---
 
-# Future Enhancements
+## Future Improvements
 
-* GitHub Actions
-* PowerShell Testing
-* Logging
-* Configuration Files
-* Error Handling
-* Scheduled Automation
+Planned enhancements include:
 
----
-
-# Recruiter Summary
-
-This repository demonstrates practical PowerShell automation used to support enterprise IT environments.
-
-Projects focus on Windows administration, Microsoft 365, Active Directory, Azure, reporting, and operational automation.
-
-The goal is to showcase repeatable infrastructure automation that improves efficiency while following enterprise documentation standards.
+- Advanced reporting
+- HTML dashboards
+- Email notifications
+- Logging framework
+- Scheduled automation
+- Configuration files
+- Pester testing
+- GitHub Actions automation
 
 ---
 
-# Author
+## Recruiter Summary
+
+This repository demonstrates practical Windows administration and PowerShell automation skills used in enterprise IT environments.
+
+The scripts focus on operational support, troubleshooting, reporting, and administrative automation that align with responsibilities commonly found in Systems Administration, Infrastructure Engineering, Technical Operations, and Cloud Operations roles.
+
+---
+
+## Author
 
 **Jae McNeal**
 
 Senior Systems Administrator
 
-Azure • Microsoft 365 • Active Directory • PowerShell • Infrastructure Automation • Windows Server
+PowerShell • Azure • Microsoft 365 • Active Directory • Infrastructure Automation • Windows Server
