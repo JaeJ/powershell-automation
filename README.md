@@ -61,14 +61,43 @@ This repository demonstrates practical PowerShell automation techniques commonly
 ```text
 powershell-automation/
 │
-├── scripts/
-│   ├── Check-DiskSpace.ps1
-│   ├── Get-SystemHealth.ps1
-│   ├── Restart-ServiceSafe.ps1
-│   └── Cleanup-TempFiles.ps1
+├── .github/
+│   └── workflows/
+│       └── powershell-validation.yml
 │
 ├── docs/
+│   ├── architecture.md
+│   ├── project-roadmap.md
 │   └── troubleshooting-notes.md
+│
+├── examples/
+│   └── sample-output.md
+│
+├── images/
+│   └── README.md
+│
+├── scripts/
+│   ├── Utilities/
+│   │   ├── Check-DiskSpace.ps1
+│   │   ├── Get-SystemHealth.ps1
+│   │   └── Restart-ServiceSafe.ps1
+│   │
+│   └── Windows/
+│       ├── Get-DiskSpaceReport.ps1
+│       ├── Get-EventLogErrors.ps1
+│       ├── Get-InstalledSoftware.ps1
+│       ├── Get-LocalAdministrators.ps1
+│       ├── Get-RunningServices.ps1
+│       ├── Get-ScheduledTasks.ps1
+│       ├── Get-SystemInfo.ps1
+│       ├── Get-SystemUptime.ps1
+│       └── Get-WindowsUpdateStatus.ps1
+│
+├── tests/
+│   ├── README.md
+│   ├── Get-SystemInfo.Tests.ps1
+│   ├── Get-DiskSpaceReport.Tests.ps1
+│   └── Get-EventLogErrors.Tests.ps1
 │
 ├── CHANGELOG.md
 ├── LICENSE
@@ -76,6 +105,19 @@ powershell-automation/
 └── .gitignore
 ```
 
+## Documentation
+
+Additional project documentation is provided in the `/docs` folder.
+
+Available documentation includes:
+
+- Architecture Overview
+- Project Roadmap
+- Troubleshooting Notes
+
+Examples and sample output can be found in:
+
+- `/examples/sample-output.md`
 ---
 
 ## Current Scripts
