@@ -22,15 +22,23 @@ jobs:
         run: |
           Install-Module PSScriptAnalyzer -Force -Scope CurrentUser
 
-      - name: Run PowerShell Analysis
+      - name: Analyze Scripts
         shell: pwsh
         run: |
           $results = Invoke-ScriptAnalyzer -Path ./scripts -Recurse
 
-          $results | Format-Table
+          if ($results) {
+              Write-Host "Analyzer Results:"
+              $results | Format-Table -AutoSize
+          }
 
-          $errors = $results | Where-Object Severity -eq 'Error'
+          $errors = $results | Where-Object { $_.Severity -eq 'Error' }
 
           if ($errors) {
-              throw "PSScriptAnalyzer detected errors."
+              throw "PSScriptAnalyzer detected one or more errors."
           }
+
+      - name: Validation Complete
+        shell: pwsh
+        run: |
+          Write-Host "PowerShell validation completed successfully."
